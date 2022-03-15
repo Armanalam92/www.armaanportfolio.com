@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+  text-align: right;
+  padding-top: 30px;
+  background-color: cadetblue;
+  height: 50px;
+  border-color: springgreen;
+}
+
+a
+{
+    border-color: cornflowerblue;
+    /* background-color: black; */
+    color: black;
+    text-decoration: none;
+    font-style: arial;
+    font-weight: bold;
+    padding: 20px;
+}
+
+a:hover
+{
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+.h1{
+    display: flex;
+    position: fixed;
+    font-style: arial;
+  font-weight: bold;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.h1:hover{
+    border-color: cornflowerblue;
+    opacity: 1.9;
+    font-weight: bold;
+    cursor: pointer;
+    font-style: arial;
+    color: black;
+    background-color: transparent;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #34495e;
+  }
+  .slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid black;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .bar:hover{
+    background: #fff;
+  }
+  
+  input[name="r"]{
+      position: absolute;
+      visibility: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 0.6s;
+  }
+  .slide img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #r1:checked ~ .s1{
+    margin-left: 0;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -20%;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -40%;
+  }
+  #r4:checked ~ .s1{
+    margin-left: -60%;
+  }
+  #r5:checked ~ .s1{
+    margin-left: -80%;
+  }
+  
+  .landing{
+      color: white;
+      padding-bottom: 530px;
+      background-color: #34495e;
+  }
+
+  .downContent{
+    padding-bottom: 530px;
+    background-color: darkslategray;
+  }
+
+  .p{
+    color: #fff;
+    letter-spacing: 1px;
+    font-style: arial;
+    font-weight: bold;
+  }
+
+  .cardsfor{
+    color: #fff;
+    padding: 10px 25px;
+   background-color: transparent;
+  }
+  
+  .N{
+    height: 50px;
+    background-color: transparent;
+  }
+
+  .cards{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+   .cad{
+     color: #fff;
+     font-size: medium;
+     font-weight: bold;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+     letter-spacing: 1.2px;
+     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.20s;
+    }
+
+    .ddd{
+      display: flex;
+      text-align: justify;
+      padding: 10px 20px;
+    }
+
+    .ddd #ContectMe{
+      display: flex;
+    }
+
+    #ContectMe:hover{
+      box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+      color: darkgray;
+    }
+
+    #ContectMe{
+      width: 10%;
+      height: 10%;
+      display: flex;
+      margin-top: 100px;
+      text-align: center;
+      margin-left: 50px;
+      color: #fff;
+      float: center;
+      padding: 10px 10px;
+      border: 0px solid #2196f3;
+      background-color: transparent;
+      font-size: medium;
+      font-weight: bold;
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+      letter-spacing: 1px;
+      box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+     transition-delay: 0.20s; 
+    }
+
+    .half-name{
+      margin-bottom: 100px;
+      margin-top: 200px;
+      margin-left: -100px;
+      color: #fff;
+    }
+
+    .things{
+      margin-top: 250px;
+      margin-left: -100px;
+      font-size: 10px;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;      
+    }
+
+    .things p{
+      margin: -10px;
+      margin-top: -20px;
+      color: #fff;
+    }
+
+    .name{
+      margin-top: 200px;
+      margin-bottom: 100px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: chartreuse;
+    }
+
+    .ganda{
+      margin-bottom: 20px;
+      color: #fff;
+      font-size: medium;
+      font-weight: bold;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+      letter-spacing: 1.2px;
+      box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+     transition-delay: 0.20s;
+    }
+
+  .card1{
+    background-color: rgb(58, 54, 54);
+    height: 500px;
+    border-radius: 20px;
+    border-color: black;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  .card1H2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .card2{
+    background-color: rgb(58, 54, 54);
+    height: 500px;
+    border-radius: 20px;
+    border-color: black;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  .card2H2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .card3{
+    background-color: rgb(58, 54, 54);
+    height: 500px;
+    border-radius: 20px;
+    border-color: black;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  .card3H2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .allEnd{
+    height: 100px;
+    background-color: #34495e;
+  }
+
+  .card4{
+    margin-top: 100px;
+    background-color: rgb(58, 54, 54);
+    height: 500px;
+    border-radius: 20px;
+    border-color: black;
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 35px;
+  }
+
+  .Shref{
+    color: white;
+    background-color: darkslategray;
+    margin: 30px;
+    padding: 20px;
+  }
+
+  .Shref:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 150ms;
+    -webkit-transition-delay: 100ms;
+  }
+
+  .things h1:hover{opacity: 1px; color: #255784;}
+
+  
+  .classisForH2:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.20s;
+    -webkit-transition-delay: 100ms;
+  }
+
+  .EMail{
+    cursor: default;
+  }
+
+  .EMail h1:hover{
+      color: darkslateblue;
+  }
+
+  /*My css completed here*/
