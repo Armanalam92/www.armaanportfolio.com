@@ -359,4 +359,9 @@ body{
   transition-delay: 0.20s;
   -webkit-transition-delay: 100ms;
  }
+
+ .cardVideo{
+   display: flex;
+   margin-bottom: 100px;
+ }
   /*My css completed here*/
